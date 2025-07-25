@@ -88,7 +88,8 @@
             margin-top: 2rem;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
         }
-        .tool-tag {
+        /* Styling for the tool links */
+        .tool-link {
             background-color: #cbd5e0;
             color: #2d3748;
             padding: 0.5rem 1rem;
@@ -97,6 +98,11 @@
             font-weight: 600;
             margin: 0.25rem;
             display: inline-block;
+            text-decoration: none; /* Remove underline */
+            transition: background-color 0.2s ease-in-out;
+        }
+        .tool-link:hover {
+            background-color: #a0aec0; /* Darker on hover */
         }
         .footer {
             text-align: center;
@@ -229,30 +235,30 @@
             <div class="tools-section mt-8">
                 <h2 class="section-title">Posibles Herramientas a Explorar</h2>
                 <div class="flex flex-wrap justify-center">
-                    <span class="tool-tag">ChatGPT</span>
-                    <span class="tool-tag">Claude</span>
-                    <span class="tool-tag">Gemini</span>
-                    <span class="tool-tag">Mistral</span>
-                    <span class="tool-tag">Copilot</span>
-                    <span class="tool-tag">DeepSeek</span>
-                    <span class="tool-tag">Perplexity</span>
-                    <span class="tool-tag">Consensus</span>
-                    <span class="tool-tag">Cove</span>
-                    <span class="tool-tag">NotebookLM</span>
-                    <span class="tool-tag">Gamma</span>
-                    <span class="tool-tag">Canva</span>
-                    <span class="tool-tag">Agent.ai</span>
-                    <span class="tool-tag">ChatGPT Operator</span>
-                    <span class="tool-tag">Fabric</span>
-                    <span class="tool-tag">My Mind</span>
-                    <span class="tool-tag">Reader by Readwise</span>
-                    <span class="tool-tag">Notion AI</span>
-                    <span class="tool-tag">Microsoft Copilot 365</span>
-                    <span class="tool-tag">Google Workspace con Gemini</span>
-                    <span class="tool-tag">Manus</span>
-                    <span class="tool-tag">Genspark AI</span>
-                    <span class="tool-tag">Granola</span>
-                    <span class="tool-tag">tl;dv</span>
+                    <a href="https://chat.openai.com/" target="_blank" class="tool-link">ChatGPT</a>
+                    <a href="https://claude.ai/" target="_blank" class="tool-link">Claude</a>
+                    <a href="https://gemini.google.com/" target="_blank" class="tool-link">Gemini</a>
+                    <a href="https://mistral.ai/" target="_blank" class="tool-link">Mistral</a>
+                    <a href="https://copilot.microsoft.com/" target="_blank" class="tool-link">Copilot</a>
+                    <a href="https://www.deepseek.com/" target="_blank" class="tool-link">DeepSeek</a>
+                    <a href="https://www.perplexity.ai/" target="_blank" class="tool-link">Perplexity</a>
+                    <a href="https://consensus.app/" target="_blank" class="tool-link">Consensus</a>
+                    <a href="https://cove.ai/" target="_blank" class="tool-link">Cove</a>
+                    <a href="https://notebooklm.google/" target="_blank" class="tool-link">NotebookLM</a>
+                    <a href="https://gamma.app/" target="_blank" class="tool-link">Gamma</a>
+                    <a href="https://www.canva.com/" target="_blank" class="tool-link">Canva</a>
+                    <a href="https://agent.ai/" target="_blank" class="tool-link">Agent.ai</a>
+                    <a href="https://chatg.pt/" target="_blank" class="tool-link">ChatGPT Operator</a>
+                    <a href="https://fabric.so/" target="_blank" class="tool-link">Fabric</a>
+                    <a href="https://mymind.com/" target="_blank" class="tool-link">My Mind</a>
+                    <a href="https://readwise.io/reader" target="_blank" class="tool-link">Reader by Readwise</a>
+                    <a href="https://www.notion.so/product/ai" target="_blank" class="tool-link">Notion AI</a>
+                    <a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-copilot-for-microsoft-365" target="_blank" class="tool-link">Microsoft Copilot 365</a>
+                    <a href="https://workspace.google.com/solutions/gemini/" target="_blank" class="tool-link">Google Workspace con Gemini</a>
+                    <a href="https://www.manus.ai/" target="_blank" class="tool-link">Manus</a>
+                    <a href="https://genspark.ai/" target="_blank" class="tool-link">Genspark AI</a>
+                    <a href="https://granola.so/" target="_blank" class="tool-link">Granola</a>
+                    <a href="https://tldv.io/" target="_blank" class="tool-link">tl;dv</a>
                 </div>
                 <p class="text-center text-sm text-gray-600 mt-4">El contenido y las herramientas pueden variar según las novedades del mercado.</p>
             </div>
